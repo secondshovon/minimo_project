@@ -1,2 +1,2 @@
 # minimo_project
-roll:08
+https://secondshovon.github.io/minimo_project/
