@@ -1,0 +1,274 @@
+/*common css start*/
+body{
+	margin: 0;
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common css end*/
+
+/*header start*/
+
+header{
+	padding: 30px 0;
+/*	border: 1px solid;*/
+}
+.container{
+	overflow: hidden;
+	margin: 0 auto;
+	/* majkhane anar jonno margin: 0 auto;	*/
+	width: 90%;
+/*	border: 1px solid red;*/
+}
+.logo{
+	margin-top: 11px;
+	float: left;
+	width: 12%;
+/*	border: 1px solid blueviolet;*/
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 65%;
+/*	border: 1px solid black;*/
+}
+.menu ul{
+	float: right;
+/*	overflow: hidden;*/
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	display: inline-block;
+	margin: 0 50px;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: .33s linear;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+/*header end*/
+
+/*banner start*/
+
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+
+/*banner end*/
+
+/*getaway start*/
+
+.getaway{
+	padding: 100px 0 30px;
+}
+.container2{
+	margin: 0 auto; /*margin ta upore rakha better*/
+	overflow: hidden;
+	width: 80%;
+/*	border: 1px solid;*/
+}
+.g_content{}
+.c_light{
+	font-family: "Ubuntu", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin: 0;
+}
+.c_title{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+	line-height: 24px;
+}
+.g_link{
+	margin-top: 40px;
+	display: block;
+	color: #626262;
+	text-decoration: none;
+}
+
+/*getaway end*/
+
+/*blog start*/
+.blog{
+	padding-bottom: 100px;
+}
+.sb_item{
+	margin-top: 70px;
+	box-sizing: border-box;
+	float: left;
+	width: 47%;
+/*	border: 1px solid red;*/
+}
+.sb_item:nth-child(even){
+	margin-left: 6%;
+}
+.sb_img{
+	margin-bottom: 20px;
+}
+.sb_img img{
+	width: 100%;
+}
+
+
+/*blog end*/
+
+/*news start*/
+
+.news{
+	background-color: #f0f0f0 ;
+/*	min-height: 400px;*/
+	padding: 70px 0;
+}
+.signup{
+	text-align: center;
+}
+.s_h1{
+	font-size: 30px;
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	position: relative;
+	width: 380px;
+/*	border: 5px solid red;*/
+	margin: 0 auto;
+	
+}
+.s_form input{
+	font-family: "Playfair Display", serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #626262;
+	width: 322px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s_form button:focus{
+	outline: 0;
+	/*focus diye rakha better onek somoy focus
+	na dile border: none dileo border chole ashe*/
+}
+.s_form button img{}
+
+/*news end*/
+
+/*blog02 start*/
+
+.blog02{
+	padding-top: 30px;
+}
+.load{
+	text-align: center;
+}
+.load button{
+	margin-top: 100px;
+	width: 165px;
+	height: 60px;
+	background-color: transparent;
+	border: 1px solid #626262;
+	font-family: "Playfair Display", serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	cursor: pointer;
+	transition: .33s linear;
+}
+.load button:hover{
+	background-color: #626262;
+	color: #fff;
+
+}
+
+/*blog02 end*/
+
+/*footer start*/
+
+footer{
+	background-color: #f0f0f0;
+    padding: 20px 0;
+}
+
+.pages{
+	float: left;
+	width: 50%;
+/*	border: 1px solid black;*/
+}
+.pages ul{
+	padding-left: 0;
+/* default ul er jonno padding 40px chilo seita remove
+korar jonno padding-left: 0;	*/
+}
+.pages ul li{
+	display: inline-block;
+    margin-right: 20px;
+    list-style: none;
+}
+.pages ul li a{
+	text-decoration: none;
+    color: #000000;
+}
+.social{
+	float: right;
+	width: 30%;
+/*	border: 1px solid black;*/
+}
+.social ul{
+	float: right;
+}
+.social ul li{
+	display: inline-block;
+    list-style: none;
+}
+.social ul li span{
+	margin:0 15px;
+	color: #000000;
+}
+.social ul li a img{
+	margin: 0 7px;
+}
+.social ul li:last-child img{
+	margin-right:0;
+}
+/*footer end*/
+
